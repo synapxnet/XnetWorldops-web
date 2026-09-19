@@ -1,0 +1,16 @@
+{
+  "name": "@synapxnet/worldops-web",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "author": "maoyo <synapxnet@gmail.com>",
+  "license": "UNLICENSED",
+  "synapxnet": {
+    "copyright": "Copyright (C) 2026 Synapxnet. All rights reserved.",
+    "confidentiality": "This file is Synapxnet Proprietary and Confidential. It is strictly forbidden to copy, distribute, or use without explicit authorization.",
+    "department": "研发部", "date": "2026-09-13", "securityLevel": "INTERNAL", "maintainer": "maoyo"
+  },
+  "scripts": {"build": "vite build", "test": "node --test tests/*.test.mjs", "start": "node server.mjs", "start:production": "node server-production.mjs"},
+  "dependencies": {"vue": "3.5.22", "three": "0.180.0"},
+  "devDependencies": {"vite": "6.3.5", "@vitejs/plugin-vue": "5.2.4"}
+}
